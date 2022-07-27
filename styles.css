@@ -1,0 +1,629 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #F5F5F5;
+}
+
+h1 , h4{
+    font-family: 'Barlow Condensed', sans-serif;
+     
+}
+
+p {
+    font-family: 'Barlow', sans-serif;
+}
+
+
+.nav{
+    width: 100%;
+    height: 53px;
+    background: #363636;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+  
+  
+}
+
+.nav p{
+   color: #FFFFFF;
+}
+
+.container{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+}
+
+
+
+.background{
+    width: 100%;
+    height : 90vh;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.35) 0%, rgba(62, 61, 61, 0) 100%);
+    background-image: url(Images/cook.jpg);
+    background-size: cover;
+    color:#FFFFFF;
+}
+
+
+.container ul{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    font-family: 'Barlow', sans-serif;
+}
+
+.container ul li{
+  margin: 35px;
+}
+
+.heading{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-top: 15em;
+    margin-right: 9.5em;
+    
+}
+
+.heading h1{
+   margin-bottom: .4em ;
+}
+
+.btn{
+    
+    width: 140px;
+     height: 37px;
+     background: #FFFFFF;
+     margin-top: 2.2em;
+     border: none;
+     font-size: 1rem;
+     font-weight: 600;
+}
+
+.launches{
+    margin-bottom: 2.2em;
+}
+.launches h1{
+    text-align: center;
+}
+.new-launches{
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+
+.new-launches p{
+ color:
+ #d64b19;
+ font-weight: 400;
+}
+
+.l-1 , .l-2{
+    text-align: center;
+    line-height: 2.5rem;
+}
+
+.l-1 img, .l-2 img{
+    margin-top: 1.2em;
+width: 100%;
+height: 405px;
+}
+
+.l-1 button,.l-2 button{
+width: 140px;
+height: 37px;
+background: #000000;
+color: #FFFFFF;
+border: none;
+font-size: 1rem;
+}
+
+
+
+
+
+/* <!-- -----------------TESTIMONIALS------------------------ --> */
+
+.testimonials{
+
+    text-align: center;
+}
+.tests-items{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 98%;
+    margin: 30px auto;
+}
+
+
+.test-reviews{
+    margin: 20px 0;
+    padding: 0 30px;
+    width: 406.46px;
+    height: 213px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 1.4em;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25);
+}
+.test-reviews h4{
+    margin-top: 10px;
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+    font-weight: 600;
+}
+.test-reviews p{
+    font-weight: 300;
+}
+
+.test-rating{
+    margin: 8px 0;
+}
+
+
+/* <!-- -----------------------Menu-Listing-------------------- --> */
+ .display{
+    display: flex;
+    width:100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+
+ }
+.d-m{
+    width: 350px;
+    height: 354px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    text-align: center;
+    color:white;
+    margin: 20px 0;
+}
+
+.d-1{ 
+    background-image: url(Images/bowl-6.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.d-2{
+    background-image: url(Images/bowl-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.d-3{
+    background-image: url(Images/launch-7.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.d-3{
+    background-image: url(Images/launch-7.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.d-m h4{
+    font-size: 1.4rem;
+}
+.d-m p{
+    padding:  15px 30px;
+    font-weight: 300;
+    color:#f5f5f5;
+}
+
+
+/* ------------------------Discover-More--------------------------- */
+
+.discover{
+    background-image: url(Images/discover-7.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    Width: 100%;
+  
+    height: 550px;
+    margin: 40px auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.disover-descp{
+line-height: 2.4rem;
+background: rgba(244, 244, 244, 0.82);
+padding: 50px;
+width: 100%;
+height: 108px;
+}
+
+.disover-descp button{
+width: 168px;
+height: 37px;
+background: #000000;
+color: #FFFFFF;
+border: none;
+font-size: 1rem;
+
+}
+
+/* 
+-----------------------Cakes------------------------------------ */
+.cakes h1{
+    text-align: center;
+}
+
+.cake-container{
+
+display: flex;
+flex-wrap: wrap;
+width: 90%;
+
+justify-content: space-around;
+margin: 20px auto;
+}
+
+.cake-listing{
+    margin: 10px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    line-height: 1.8rem;
+}
+.cake-listing button{
+    width: 159px;
+height: 37px;
+color: #FFFFFF;
+border: none;
+background: #000000;
+font-size: 1rem;
+}
+
+.cake-listing p{
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+/* -------------------------------plantes------------------------------- */
+
+.plantes{
+    background-image: url(Images/planets-8.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 548px;
+
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 2.2em 0;
+}
+
+.plantes-text{
+   color:#FFFFFF;
+   margin:  0 20px;
+   max-width: 600px;
+}
+
+.plantes-text h1{
+    padding-bottom: 20px;
+}
+
+/* ------------------------socials---------------------------------- */
+
+
+.social h1{
+    text-align: center;
+}
+
+.social-blogs{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 95%;
+    margin: 1.2em auto;
+     
+}
+
+
+
+.social-blogs img{
+    width: 344px;
+   height: 350px;
+   margin: 2px;
+}
+
+
+/* -----------------------RECIPES TO INSPIRE--------------------------- */
+
+
+.recipes h1{
+    text-align: center;
+}
+
+.recipes-container{
+  display: flex;
+  flex-wrap: wrap;
+  width: 95%;
+  margin: 20px auto;
+  justify-content: center;
+  align-items: center;
+   
+}
+
+.recipes-listing h4{
+    margin: 15px 0;
+    font-size: 1.4rem;
+}
+
+.recipes-listing p{
+    max-width: 450px;
+    margin-bottom: 10px;
+    font-weight: 300;
+}
+
+
+
+
+
+/* ----------------------footer-1-------------------------- */
+
+.footer-1{
+    background: #363636;
+    color: #f5f5f5;
+    height: 12.5vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+.footer-1 h4{
+    font-weight: 520;
+    font-size: 1.1rem;
+}
+
+.footer-1 p{
+    font-size: .8rem;
+    font-weight: 200;
+}
+
+
+/*----------------footer-2-------------------------------- */
+
+.footer-2{  
+background: #F1CEBA;
+height: 45vh;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+padding: 3.2em;
+}
+
+.footer-2 h4{
+    font-size: 1.6rem;
+    font-weight: 510;
+}
+
+.footer-2 p{
+    font-weight: 300;
+    font-size: 1rem;
+}
+
+
+
+
+.footer-list-1 ul{
+margin-top: 1.5em;
+list-style: none;
+line-height: 2.8rem;
+
+font-family: 'Barlow', sans-serif;
+font-weight: 400;
+}
+
+.footer-list-2 i{
+    margin-top: 1.5em;
+   padding:0 10px;
+   font-size: 1.5rem;
+}
+
+.footer-list-3 h4{
+  margin-bottom: 1em;
+}
+.footer-list-3 p{
+    line-height: 2em;
+}
+
+
+.footer-list-4 input{
+    margin-top: 1.5em;;
+    color: rgba(0, 0, 0, 0.7);
+    border: none;
+    background: none;
+    border-bottom: 1.2px solid rgba(0, 0, 0, 0.7) ;
+    padding: 12px 20px;
+
+    font-size: .8rem;
+}
+
+.footer-list-4 button{
+
+    background: #000000;
+    color: #FFFFFF;
+    padding: 9px 40px;
+    border: none;
+    margin-left: .2em;
+    font-size: 1rem;
+}
+
+.wrapper{
+    min-width: 450px;
+}
+
+@media screen and (max-width : 768px) {
+
+    
+
+    .container{
+        display: flex;
+       justify-content: space-around;
+    }
+  
+    .container ul{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .container ul li{
+      margin:  14px auto;
+    }
+
+    .heading{
+        margin: 0 auto;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    .background{
+        height: max-content;
+        padding-bottom: 100px;
+    }
+
+    .new-launches{
+        flex-direction: column;
+    }
+
+    .test-reviews{
+        width: 75%;
+      
+    }
+
+    .d-m{
+        width: 80%;
+        height: 448px;
+        
+    }
+
+    .disover-descp{
+        height: 100%;
+    }
+
+
+    .plantes-text{
+        color:#FFFFFF;
+        width: 80%;
+     }
+
+     .footer-1{
+        height: 30vh;
+        flex-direction: column;
+        text-align: center;
+     }
+ 
+     .footer-2{
+         height: 80vh;
+         flex-direction: column;
+         text-align: center;
+      }
+
+
+@media screen and (max-width : 580px){
+
+    .container{
+        display: flex;
+        flex-direction: column;
+       /* background-color: #919191; */
+    }
+  
+    .container ul{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .container ul li{
+      margin:  10px auto;
+    }
+
+    .heading{
+        margin: 0;
+        justify-content: center;
+        align-items: center;
+        
+    }
+        
+    .display{
+        width:100%;
+        margin: 20px auto;
+     }
+
+     .d-m{
+        width: 100%;
+        display: flex;
+        margin: 8px auto;
+    }
+
+    .plantes{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .plantes-text{
+        color:#FFFFFF;
+        width: 80%;
+     }
+
+
+     .footer-1{
+       height: 30vh;
+       flex-direction: column;
+       text-align: center;
+    }
+
+    .footer-2{
+        height: 80vh;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+     }
+    
+     .footer-list-4{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .footer-list-4 input{
+       margin-bottom:  10px;
+    }
+ 
+}
+
+
+
+
+
+
+
+
+    
+     
+}
